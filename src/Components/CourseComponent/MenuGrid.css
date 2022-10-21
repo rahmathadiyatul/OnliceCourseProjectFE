@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.menugrid_anothertitle{
+    text-align:center;
+    width: 100%;
+    height: 39px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #5B4947;
+    margin: 52px 0;
+    margin-bottom: 52px;
+    padding: 52px 0;
+    border-top: 1px solid #E0E0E0;
+}
+
+.menugrid_img{
+    width: 350px;
+    height: 233.33px;
+    object-fit: cover;
+}
+
+.menugrid_img:hover{
+    transform: scale(1.01);
+}
+
+.menugrid_category{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    width: 292px;
+    height: 20px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.menugrid_title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5B4947;
+    width: 318px;
+    height: 70px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.menugrid_price{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FABC1D;
+    width: 318px;
+    height: 24px;
+    margin: 10px;
+    margin-bottom: 64px;
+    align-self: stretch;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.detail_invoice{
+    margin: 0 60px;
+}
+
+.letterhead {
+    margin-top: 46px;
+    margin-bottom: 42px;
+}
+
+.detail_invoice p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.detail_invoice p a{
+    color: #5B4947;
+}
+
+.detail_invoice h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #4F4F4F;
+    height: 24px;
+    margin: 30px 0;
+}
+
+.detail_invoice .info_table {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.detail_invoice .info_table h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    height: 23px;
+    margin: 8px 0;
+}
+
+.detail_invoice .info_table .no_date {
+    display: flex;
+    gap: 24px;
+}
+
+.detail_invoice .info_table .total {
+    display: flex;
+    gap: 24px;
+}
+
+.detail_invoice .info_table h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4F4F4F;
+    height: 22px;
+    margin: 8px 0;
+}

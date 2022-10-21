@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.detailkelas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.detailkelas .detailkelas_img {
+    box-sizing: border-box;
+    border : 1px solid #BDBDBD;
+    width: 400px;
+    height: 266.67px;
+    object-fit: cover;
+}
+
+.detailkelas .detailkelas_category {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    width: 44px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+
+.detailkelas .detailkelas_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    height: 29px;
+    margin: 4px 0px;
+}
+
+.detailkelas .detailkelas_price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5B4947;
+    height: 29px;
+    margin: 4px 0px;
+}
+
+.detailkelas_desc{
+    margin: 40px 70px;
+}
+
+.detailkelas_desc h1{
+    width: 144px;
+    height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+    color: #333333;
+}
+
+.detailkelas_desc p{
+    width: 1140px;
+    height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.detailkelas_categorytitle{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #5B4947;
+    margin: 52px;
+}
+
+.menu_grid_img{
+    width: 350px;
+    height: 233.33px;
+    object-fit: cover;
+}
+
+.detailkelas_menu{
+    width: 350px;
+    height: 233.33px;
+    object-fit: cover;
+}
+
+.detailkelas_menu:hover{
+    transform: scale(1.01);
+}
+
+.menu_grid .detailkelas_category{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    width: 292px;
+    height: 20px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.menu_grid .detailkelas_title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #5B4947;
+    width: 318px;
+    height: 70px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.menu_grid .detailkelas_price{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FABC1D;
+    width: 318px;
+    height: 24px;
+    margin: 10px;
+    margin-bottom: 64px;
+    align-self: stretch;
+}
+
+.detailkelas_select{
+    width: 300px;
+    height: 40px;
+    margin-top: 37.5px;
+}
+
+.detailkelas_button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 16px;
+}

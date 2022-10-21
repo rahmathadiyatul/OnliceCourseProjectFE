@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.buttonstyle .orangebutton{
+    width: 233.5px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FABC1D;
+    border: 1px solid #FABC1D;
+    border-radius: 8px;
+    box-shadow: none;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5B4947;
+    text-transform: none;
+    gap: 5px;
+}
+
+.buttonstyle .whitebutton{
+    width: 233.5px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #5B4947;
+    border-radius: 8px;
+    box-shadow: none;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5B4947;
+    text-transform: none;
+    gap: 5px;
+}
+
+.buttonstyle .orangebutton:hover{
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+.buttonstyle .whitebutton:hover{
+    background-color: #FABC1D;
+    border-color: #5B4947;
+    box-shadow: none;
+}
